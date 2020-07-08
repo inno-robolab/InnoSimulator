@@ -1,17 +1,17 @@
 <h1 align="center">Innopolis Simulator</h1>
 
-<!-- div align="center">
-<a href="https://github.com/serjkopylov/InnoSimulator/releases/latest">
-<img src="https://img.shields.io/github/release-pre/serjkopylov/InnoSimulator.svg" alt="Github release" /></a>
+<div align="center">
+<a href="https://github.com/inno-robolab/InnoSimulator/releases/latest">
+<img src="https://img.shields.io/github/v/release/inno-robolab/InnoSimulator.svg" alt="Github release" /></a>
 <a href="">
-<img src="https://img.shields.io/github/downloads/serjkopylov/InnoSimulator/total.svg" alt="Release downloads" /></a>
+<img src="https://img.shields.io/github/downloads/inno-robolab/InnoSimulator/total.svg" alt="Release downloads" /></a>
 </div>
--->
+
 
 <a href="Docs/Media/SimHeaderHD.png"><img src="Docs/Media/SimHeaderHD.png" style="width: 500px; max-width: 100%; height: auto" title="SimHeaderHD" /></a>
 <div align="center">
   <h4>
-    <a href="http://cordelia.university.innopolis.ru/Simulation/InnoSimulator/tags/Build" style="text-decoration: none">
+    <a href="https://github.com/inno-robolab/InnoSimulator/releases/latest" style="text-decoration: none">
     Download</a>
     <span> | </span>
    <a href="Docs/HowToUse.md" style="text-decoration: 
