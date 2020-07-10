@@ -31,7 +31,7 @@ InnoSim allows significantly decrease the cost of autonomous systems development
 
 ## Functionalities
 
-InnoSim provide the environment for debugging and modeling the behavior of users autonomous systems in real-time and in real 3D environment, which will avoid critical design errors, quickly clarify low-level requirements for individual nodes, shift the verification process to earlier stages, carry out more iterations of the prototype research in a short period of time and save on field tests.
+InnoSim provides the environment for debugging and modeling the behavior of users autonomous systems in real-time and in real 3D environment, which will avoid critical design errors, quickly clarify low-level requirements for individual nodes, shift the verification process to earlier stages, carry out more iterations of the prototype research in a short period of time and save on field tests.
 
 ## Video
 
