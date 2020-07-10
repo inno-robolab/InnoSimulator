@@ -52,6 +52,7 @@ For carrying out full-scale tests and testing of the entire functionality of the
 ```
    ./scripts/bootstrap.sh
 ```
+Don't forget to download our latest [HD map](hdmap/) before starting the simulation
 
 **Full description how to use simulator you can find [here](Docs/HowToUse.md).**
 
