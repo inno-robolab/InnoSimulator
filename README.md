@@ -16,19 +16,22 @@
     <span> | </span>
    <a href="Docs/HowToUse.md" style="text-decoration: 
    none">How To Use</a> 
+    <span> | </span>
+    <a href="https://robotics.innopolis.university/en/labs/laboratoriya-avtonomnyh-transportnyh-sistem/" style="text-decoration: 
+   none">Autonomous Transportation Systems Lab</a> 
   </h4>
 </div>
 
 ## Introduction
-This is Unity-based robot simulator for autonomous moving objects developed by Innopolis University. Simulator could be used by autonomous vehicle developers and end-users for testing or educational purposes.
-
-The development of a virtual environment for modeling the behavior of a robotic autonomous moving objects will significantly reduce the cost of vehicle’s development process, especially in the area of tuning and testing sensory and control equipment. This will significantly improve the safety of the car. 
+This simulator was designed especially for autonomous driving systems developers. InnoSim has been developed from the scratch by [Autonomous Transportation Systems Lab](https://robotics.innopolis.university/en/labs/laboratoriya-avtonomnyh-transportnyh-sistem/) of Innopolis University. Simulator could be used in development, testing, training and validation processes of autonomous systems in a close to real operational conditions. 
+InnoSim allows significantly decrease the cost of autonomous systems development process, especially in part of sensor equipment tuning and testing, control and interaction with another static and dynamic objects.
 
 ![Inno_Car_Model](Docs/Media/SimView01.png)
 
 
-## Purpose
-The main purpose is to create an environment for debugging and modeling the behavior of a full-fledged model in the simulator in real time and in real 3D environment, which will avoid critical design errors, quickly clarify low-level requirements for individual nodes, shift the verification process to earlier stages, carry out more iterations of the prototype research in a short period of time and save on field tests.
+## Functionalities
+
+InnoSim provide the environment for debugging and modeling the behavior of users autonomous systems in real-time and in real 3D environment, which will avoid critical design errors, quickly clarify low-level requirements for individual nodes, shift the verification process to earlier stages, carry out more iterations of the prototype research in a short period of time and save on field tests.
 
 ## Video
 
@@ -58,3 +61,5 @@ There're some example ready-to-use scenes. Every scene is dedicated to our team'
 ## Pyhton API
 Innopolis Simulator supports Python API functionality. Full description can be found [here](Docs/PythonApi.md). 
 
+## Licence
+This project is licensed under the MIT License
