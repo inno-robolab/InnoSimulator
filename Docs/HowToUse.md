@@ -177,9 +177,9 @@ This is the full list of features included in this simulator. This list will upd
 For good framerate and performance the system minimum recommended for the Inno Simulator is the following: 
  - 4 GHz Dual core CPU
  - Nvidia GTX 1080
- - Windows 10 64 Bit
+ - Windows 10 / Linux 64 Bit
  
 #### External Devices Support
 
  - Oculus
- - Logitech G920
+ - Logitech G920 (only on Windows, driver you can find [here](https://www.driverscloud.com/en/services/GetInformationDriver/72261-75878/logitech-lgs-90265-x64-logitechexe))
