@@ -40,7 +40,7 @@ InnoSim provides the environment for debugging and modeling the behavior of user
 
 
 ### Run tests with simulator
-For carrying out full-scale tests and testing of the entire functionality of the simulator, [Apollo](https://github.com/lgsvl/apollo-5.0) need to be installed (preferably on another computer to achieve high-level performance). To allow the simulator communicate with Apollo you need to install Rosbridge and read installation instructions from [here](https://github.com/lgsvl/rosbridge_suite). 
+For carrying out full-scale tests and testing of the entire functionality of the simulator, [Apollo](https://github.com/lgsvl/apollo-5.0) needs to be installed (preferably on another computer to achieve high-level performance). To allow the simulator communicate with Apollo you need to install Rosbridge and read installation instructions from [here](https://github.com/lgsvl/rosbridge_suite). 
 
 
 1.  Run rosbridge:
