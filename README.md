@@ -26,7 +26,7 @@
 This simulator was designed especially for autonomous driving systems developers. InnoSim has been developed from the scratch by [Autonomous Transportation Systems Lab](https://robotics.innopolis.university/en/labs/laboratoriya-avtonomnyh-transportnyh-sistem/) of Innopolis University. Simulator could be used in development, testing, training and validation processes of autonomous systems in a close to real operational conditions. 
 InnoSim allows significantly decrease the cost of autonomous systems development process, especially in part of sensor equipment tuning and testing, control and interaction with another static and dynamic objects.
 
-![Inno_Car_Model](Docs/Media/SimPriusNight.png)
+![Inno_Car_Model](Docs/Media/SimPriusNight.PNG)
 
 
 ## Functionalities
