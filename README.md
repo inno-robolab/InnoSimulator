@@ -59,7 +59,7 @@ Don't forget to download our latest [HD map](hdmap/) before starting the simulat
 ### Premade scenes
 There're some example ready-to-use scenes. Every scene is dedicated to our team's internal requests for testing purposes. 
 
-## Pyhton API
+## Python API
 Innopolis Simulator supports Python API functionality. Full description can be found [here](Docs/PythonApi.md). 
 
 ## Licence
