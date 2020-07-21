@@ -4,19 +4,8 @@
 
 ## How to Run
 
-### For developers (How to run simulator in Unity Editor)
- 1. Install Unity 2019 or newer ([for Windows](https://store.unity.com/download-nuo) and [for Ubuntu](https://forum.unity.com/threads/unity-on-linux-release-notes-and-known-issues.350256/))
- 2. Clone simulator
-```
- git clone https://github.com/serjkopylov/InnoSimulator.git
-```
-
- 3. Open Unity editor, locate and open project that was cloned in step 2
- 4. Find `Project panel`, navigate `Assets->Scenes`. Then select `MainMenu` and run it. At the top of the editor, click the `Play` button to start the simulator.
-
-
 ### For end-users
-Download <a href="http://cordelia.university.innopolis.ru/Simulation/InnoSimulator/tags/2019.1" style="text-decoration: none">here</a> the latest release and run as a standalone executable.
+Download <a href="https://github.com/inno-robolab/InnoSimulator/releases/latest" style="text-decoration: none">here</a> the latest release and run as a standalone executable.
 
 There're three ways to run it, launch a terminal window and go to the folder you extracted Inno Simulator to.
 
