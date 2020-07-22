@@ -5,7 +5,7 @@
 ## How to Run
 
 ### For end-users
-Download from here <a href="https://github.com/inno-robolab/InnoSimulator/releases/latest" style="text-decoration: none">here</a> the latest release and run as a standalone executable.
+Download from <a href="https://github.com/inno-robolab/InnoSimulator/releases/latest" style="text-decoration: none">here</a> the latest release and run as a standalone executable.
 
 There're three ways to run it, launch a terminal window and go to the folder you extracted InnoSimulator to.
 
@@ -135,7 +135,7 @@ Desc is comming soon
 
 ## Supported Models and Features
 
-Currently InnoSimulator supports car (Hyundai Santa Fe, Toyota Prius), track (Kamaz 43118) and UAV (DJI M100 and Zilant 15 Vtol) models.
+Currently InnoSimulator supports car (Hyundai Santa Fe, Toyota Prius), track (Kamaz 43118) and UAV (DJI M100 and Zilant 15 Vtol) models. How use aerial vehicles you can find <a href="https://github.com/InnopolisAero/inno_sim_interface" style="text-decoration: none">here</a>.
 
 This is the full list of features included in this simulator. This list will be updated as new features are added.
 
@@ -158,8 +158,8 @@ This is the full list of features included in this simulator. This list will be 
     -  HD Map creation and export
     -  Day/night changer
     -  Weather 
-    - VR Support (Oculus)
-    - Logitech G920 support
+    -  VR Support (Oculus)
+    -  Logitech G920 support
 ```
 
 ## Requirements
