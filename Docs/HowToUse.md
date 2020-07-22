@@ -5,9 +5,9 @@
 ## How to Run
 
 ### For end-users
-Download <a href="https://github.com/inno-robolab/InnoSimulator/releases/latest" style="text-decoration: none">here</a> the latest release and run as a standalone executable.
+Download from here <a href="https://github.com/inno-robolab/InnoSimulator/releases/latest" style="text-decoration: none">here</a> the latest release and run as a standalone executable.
 
-There're three ways to run it, launch a terminal window and go to the folder you extracted Inno Simulator to.
+There're three ways to run it, launch a terminal window and go to the folder you extracted InnoSimulator to.
 
  **1. Regular Launch**
 
@@ -41,7 +41,7 @@ In terminal window (same procedure as in regular launch) you have to add paramet
 
 Python scripts allow to achive flexibilty for user. How to install and configure packages can be found [here](../Docs/PythonApi.md).
 
-Before using scripts, you have to launch Inno Simulator in regular mode. Then open terminal window and locate where python package and required script are placed.
+Before using scripts, you have to launch InnoSimulator in regular mode. Then open terminal window and go the locatation where python package and required script are placed.
 
 - On Linux, Mac OS X and other POSIX systems:
 
@@ -135,9 +135,9 @@ Desc is comming soon
 
 ## Supported Models and Features
 
-Currently Inno Simulator supports car (Hyundai Santa Fe, Toyota Prius), track (Kamaz) and UAV (DJI M100 and Zilant 15 Vtol) models.
+Currently InnoSimulator supports car (Hyundai Santa Fe, Toyota Prius), track (Kamaz 43118) and UAV (DJI M100 and Zilant 15 Vtol) models.
 
-This is the full list of features included in this simulator. This list will updated as new features are added.
+This is the full list of features included in this simulator. This list will be updated as new features are added.
 
 ```
     -  Vehicle's control 
