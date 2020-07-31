@@ -71,7 +71,7 @@ After launch, the scene defined in pyhton script will be started and scenario wi
 4. After scene will be loaded, the autonomous moving object should spawn inside of a chosen map. You will see...
     ![MainMenu](../Docs/Media/SimView02.png)
 
-5. In the bottom of the screen you can a control bar. To start simaltions the simulator have to be connected to Apollo. 
+5. In the bottom of the screen you can see a control bar. To start simaltions the simulator have to be connected to Apollo. 
 If connection was established successfully Rosbridge connection status on control bar should change from `Connecting` to `Connected`.
 
     ![MainMenu](../Docs/Media/SimControlBar.png)
