@@ -153,6 +153,7 @@ This is the full list of features included in this simulator. This list will be 
     -  Mapping and map generator 
     -  Geo Coding
     -  2D and 3D ground truth 
+    -  Preception obstacles detector
     -  Procedural buildings and roads generator
     -  Road network creator
     -  HD Map creation and export
