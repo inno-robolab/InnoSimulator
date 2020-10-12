@@ -40,19 +40,33 @@ Promo video is comming soon...
 
 
 ### Run tests with simulator
-For carrying out of full-scale tests and testing of the entire functionality of the simulator, [Apollo](https://github.com/lgsvl/apollo-5.0) needs to be installed (preferably on another computer to achieve high-level performance). To allow the simulator communicate with Apollo you need to install Rosbridge and read installation instructions from [here](https://github.com/lgsvl/rosbridge_suite). 
+For carrying out of full-scale tests and testing of the entire functionality of the simulator, [Apollo](https://github.com/lgsvl/apollo-5.0) needs to be installed (preferably on another computer to achieve high-level performance). It is required to run the bridge to connect the Innopolis Simulator with Apollo. Since Apollo 5 does not use ROS, need to install the cyber bridge.
 
 
-1.  Run rosbridge:
+1. Create bridge.sh with following code then put it into apollo/scripts folder. Download
+[bridge.tar.gz ](https://github.com/inno-robolab/InnoSimulator/blob/master/bridge.tar.gz) and extract into apollo/cyber folder.
 ```
-   roslaunch rosbridge_server rosbridge_websocket.launch
+    #!/usr/bin/env bash
+    DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+    cd "${DIR}/.."
+
+    bazel-bin/cyber/bridge/cyber_bridge
 ```
 
-2.  Run Apollo:To launch apollo, first launch and enter a container as described in the same [link](https://github.com/lgsvl/apollo) as in description of this chapter.
+2. Run the command `bazel build //cyber/bridge:cyber_bridge`. If command bazel is not found, then make sure that you are inside the docker container.
+3. Execute `/apollo/scripts/bridge.sh`. If you receive the error "permission denied" then write `chmod +x /apollo/scripts/bridge.sh` and repeat. It is also better to enter source scripts/apollo_base.sh before to avoid any problems. If the server started successfully then you will see the output:
+_[cyber_bridge] host ip: **you ip address**_
+4. Success! Connect your Innopolis Simulator to the bridge.
+5. To check whether messages are received in apollo
 ```
-   ./scripts/bootstrap.sh
+    apollo.sh build_cyber
+    source /apollo/cyber/setup.bash
+    cyber_monitor
 ```
-Don't forget to download our latest [HD map](hdmap/) before starting the simulation
+
+6. Don't forget to download our latest [HD map](hdmap/) before starting the simulation and extract it into _/apollo/modules/map/data folder_. Execute `cd /apollo/modules/common/data` then open global_flagfile.txt and change the line: `--map_dir=/apollo/modules/map/data/innopolis_mppi`. Restart DreamView `/apollo/scripts/bootstrap.sh stop` and `/apollo/scripts/bootstrap.sh start`
+
 
 **Full description how to use simulator you can find [here](Docs/HowToUse.md).**
 
