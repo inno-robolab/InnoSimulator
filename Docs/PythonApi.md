@@ -26,3 +26,8 @@ On Windows, use the `py` Python launcher in combination with the `-m` switch:
 ```
 py -3 -m pip install PathToPackageFolder
 ```
+or
+
+```
+pip install innosim-python-api # directory that contains our package
+```

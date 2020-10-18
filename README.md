@@ -76,5 +76,5 @@ There're some example ready-to-use scenes. Every scene is dedicated to our team'
 ## Python API
 Innopolis Simulator supports Python API functionality. Full description can be found [here](Docs/PythonApi.md). 
 
-## Licence
+## License
 This project is licensed under the [MIT License](LICENSE)
