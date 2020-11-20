@@ -45,6 +45,8 @@ class Sensor:
       return RadarSensor(remote, j)
     if j["type"] == "canbus":
       return CanBusSensor(remote, j)
+    if j["type"] == "perceptionobstacle":
+      return PerceptionObstacle(remote, j)
     raise ValueError("Sensor type '{}' not supported".format(j["type"]))
 
 
@@ -121,3 +123,8 @@ class CanBusSensor(Sensor):
   def __init__(self, remote, j):
     super().__init__(remote, j["uid"], j["name"])
     self.frequency = j["frequency"]
+    
+class PerceptionObstacle(Sensor):
+  def __init__(self, remote, j):
+    super().__init__(remote, j["uid"], j["name"])
+    self.frequency = j["frequency"]    

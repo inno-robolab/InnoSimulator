@@ -6,10 +6,45 @@ from .utils import accepts
 from .controllable import Controllable
 
 from collections import namedtuple
+from enum import Enum
 
 RaycastHit = namedtuple("RaycastHit", "distance point normal")
 
 WeatherState = namedtuple("WeatherState", "rain fog wetness")
+
+class ObstacleType(Enum):
+  CAR = 0
+  BLOCK = 1
+  CONE = 2
+
+class ObstacleState:
+  def __init__(self, transform = None):
+    if transform is None: transform = Transform()
+    self.transform = transform
+
+  @property
+  def position(self):
+    return self.transform.position
+
+  @property
+  def rotation(self):
+    return self.transform.rotation
+
+  @staticmethod
+  def from_json(j):
+    return AgentState(
+      Transform.from_json(j["transform"]),
+    )
+
+  def to_json(self):
+    return {
+      "transform": self.transform.to_json(),
+    }
+
+  def __repr__(self):
+    return str({
+      "transform": str(self.transform),
+    })
 
 
 class Simulator:
@@ -119,6 +154,13 @@ class Simulator:
   def get_agents(self):
     return list(self.agents.values())
 
+
+  @accepts(ObstacleType, ObstacleState)
+  def static_obstacle(self, obst_type, state = None):
+    if state is None: state = ObstacleState()
+    args = {"type": obst_type.value, "state": state.to_json()}
+    self.remote.command("simulator/spawn_static_obstacle", args)
+    
   @property
   def weather(self):
     j = self.remote.command("environment/weather/get")
@@ -209,6 +251,7 @@ class Simulator:
       "layer_mask": layer_mask,
       "max_distance": max_distance
     }])
+    print(hit[0])
     if hit[0] is None:
       return None
     return RaycastHit(hit[0]["distance"], Vector.from_json(hit[0]["point"]), Vector.from_json(hit[0]["normal"]))

@@ -34,12 +34,8 @@ ego.connect_bridge(os.environ.get("BRIDGE_HOST", "127.0.0.1"), 9090)
 
 state = innosim.AgentState()
 
-
-
-# 10 meters ahead, on left lane
-state.transform.position = spawns[0].position+ 5.0 * forward  -2.6*right
-#state.transform.position.x+=5
-#state.transform.position.z+=5
+# 5 meters ahead, on left lane
+state.transform.position = spawns[0].position + 5.0 * forward  -2.6*right
 state.transform.rotation = spawns[0].rotation#*1.4
 
 POV = sim.add_agent("BMWX3", innosim.AgentType.NPC, state)
