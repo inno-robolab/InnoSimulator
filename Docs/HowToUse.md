@@ -140,33 +140,68 @@ Currently InnoSimulator supports car (Hyundai Santa Fe, Toyota Prius), track (Ka
 This is the full list of features included in this simulator. This list will be updated as new features are added.
 
 ```
-    -  Vehicle's control 
-    -  Vehicle's parameters configuration 
-    -  GPS 
-    -  IMU 
-    -  Radar
-    -  Lidar
-    -  Cameras
-    -  Rosbridge
-    -  Traffic
-    -  Pedestrian scenarious
-    -  Mapping and map generator 
-    -  Geo Coding
-    -  2D and 3D ground truth 
-    -  Preception obstacles detector
-    -  Procedural buildings and roads generator
-    -  Road network creator
-    -  HD Map creation and export
-    -  Day/night changer
-    -  Weather 
-    -  VR Support (Oculus)
-    -  Logitech G920 support
+    - Vehicle's control 
+    - Vehicle's parameters configuration
+    - Sensor parameters realtime configuration editor
+    - Sensors set required for simulations (GPS, IMU, Radar, Lidar, Cameras, Perception Obstacles module, 2D and 3D Ground Truth) 
+    - Perception Obstacle module allows to debug enormous number of scenarios in realtime
+    - Dynamic traffic scenarios
+    - Dynamic pedestrian scenarios
+    - Mapping and map generator 
+    - Geo Coding
+    - Python API and ready to use scenarios   
+    - Procedural buildings and roads generator
+    - Road network creator
+    - HD Map import, creation and export
+    - Day/night changer
+    - Weather 
+    - VR Support (Oculus)
+    - Logitech G920 support
+```
+
+This is the full list of Agents and NPC namings avalaible in Inno Simulator for Python API and config accessibility
+
+**Agents**
+
+```
+    - Hundai-Robo-ap5
+    - Prius-Robo-ap5
+    - Soul-Robo-ap5
+    - Kamaz-Robo-ap5
+    - Vtol-S-Robo
+```
+
+**NPCs and Pedestrians**
+```
+   Vehicles:
+    - BMWX3 
+    - BMWX5
+    - CadillacCTS
+    - ChevroletSilverado
+    - FordFocus
+    - HondaAccord
+    - KoenigseggJesko
+    - MiniCountryman
+    - OpelAmpera
+    - Porsche935
+    - TruckIveco
+    - Bus
+
+   Pedestrians:
+    - PramWoman
+    - RideBicycleMan
+    - BicycleMan
+    - WheelChairMan
+    - Rinat
+    - Serj
+    - Kostya
+    - Ilshat
 ```
 
 ## Requirements
 For good framerate and performance the system minimum recommended for the Inno Simulator is the following: 
  - 4 GHz Dual core CPU
- - Nvidia GTX 1080
+ - Nvidia GTX 2080
  - Windows 10 / Linux 64 Bit
  
 #### External Devices Support
