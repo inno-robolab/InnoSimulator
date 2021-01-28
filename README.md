@@ -35,8 +35,8 @@ InnoSim provides the environment for debugging and modeling the behavior of user
 
 ## Video
 
-Promo video is comming soon...
 
+[![Video](https://img.youtube.com/vi/AlKk73xMKE8/0.jpg)](https://www.youtube.com/watch?v=AlKk73xMKE8)
 
 
 ### Run tests with simulator
