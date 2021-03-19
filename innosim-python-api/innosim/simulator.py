@@ -166,6 +166,10 @@ class Simulator:
     j = self.remote.command("environment/weather/get")
     return WeatherState(j["rain"], j["fog"], j["wetness"])
 
+  @accepts(str)
+  def load_scenario(self, name):
+    self.remote.command("simulator/load_scenario", {"name": name})
+
   @weather.setter
   @accepts(WeatherState)
   def weather(self, state):
