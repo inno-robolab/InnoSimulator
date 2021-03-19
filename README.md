@@ -39,7 +39,6 @@ InnoSim provides the environment for debugging and modeling the behavior of user
 [![Video](https://img.youtube.com/vi/AlKk73xMKE8/0.jpg)](https://www.youtube.com/watch?v=AlKk73xMKE8)
 
 
-
 ### Run tests with simulator
 For carrying out of full-scale tests and testing of the entire functionality of the simulator, [Apollo](https://github.com/lgsvl/apollo-5.0) needs to be installed (preferably on another computer to achieve high-level performance). It is required to run the bridge to connect the Innopolis Simulator with Apollo. Since Apollo 5 does not use ROS, need to install the cyber bridge.
 
