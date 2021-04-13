@@ -1,0 +1,130 @@
+landmark {
+    name: "Business Center",
+    waypoint {
+        id: "11"
+        s: 153.0
+        pose {
+            x: 358800.33
+            y: 6180749.78
+        }
+    }
+}
+
+landmark {
+    name: "Bus stop Business Center",
+    waypoint {
+        id: "12"
+        s: 153.0
+        pose {
+            x: 358833.19
+            y: 6180622.69
+        }
+    }
+}
+
+landmark {
+    name: "Bus stop University",
+    waypoint {
+        id: "13"
+        s: 153.0
+        pose {
+            x: 358498.88
+            y: 6180957.04
+        }
+    }
+}
+
+landmark {
+    name: "Garage",
+    waypoint {
+        id: "14"
+        s: 153.0
+        pose {
+            x: 358362.69
+            y: 6181058.55
+        }
+    }
+}
+
+landmark {
+    name: "Student hostel",
+    waypoint {
+        id: "15"
+        s: 153.0
+        pose {
+            x: 358283.31
+            y: 6180898.10
+        }
+    }
+}
+
+landmark {
+    name: "Start 1",
+    waypoint {
+        id: "16"
+        s: 153.0
+        pose {
+            x: 358344.55
+            y: 6181078.99
+        }
+    }
+}
+
+landmark {
+    name: "BAR 108",
+    waypoint {
+        id: "17"
+        s: 153.0
+        pose {
+            x: 358294.41
+            y: 6180393.77
+        }
+    }
+}
+
+landmark {
+    name: "5 Shop",
+    waypoint {
+        id: "18"
+        s: 153.0
+        pose {
+            x: 358390.41
+            y: 6180407.09
+        }
+    }
+}
+
+landmark {
+    name: "Police Office",
+    waypoint {
+        id: "19"
+        s: 153.0
+        pose {
+            x: 358394.56
+            y: 6180336.69
+        }
+    }
+}
+landmark {
+    name: "City Hall",
+    waypoint {
+        id: "20"
+        s: 153.0
+        pose {
+            x: 358420.70
+            y: 6180217.17
+        }
+    }
+}
+
+landmark {
+    name: "Garage New",
+    waypoint {
+        id: "21"
+        s: 153.0
+        pose {
+            x: 359340.4566
+            y: 6181696.9398
+        }
+    }
+}

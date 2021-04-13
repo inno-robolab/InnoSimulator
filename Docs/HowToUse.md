@@ -164,11 +164,11 @@ This is the full list of Agents and NPC namings avalaible in Inno Simulator for 
 **Agents**
 
 ```
-    - Hundai-Robo-ap5
-    - Prius-Robo-ap5
-    - Soul-Robo-ap5
-    - Kamaz-Robo-ap5
-    - Vtol-S-Robo
+    - HundaiSantaFe
+    - ToyotaPrius
+    - KiaSoul
+    - Kamaz
+    - Vtol-Small
 ```
 
 **NPCs and Pedestrians**

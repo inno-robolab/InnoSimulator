@@ -235,11 +235,11 @@ class Simulator:
         if not isinstance(c["orientation"], numtype): raise TypeError("Argument 'orientation' should have '{}' type".format(numtype))
         j["orientation"] = c["orientation"]
       jarr.append(j)
-      
+
     jarr = self.remote.command("map/from_gps", jarr)
     transforms = []
     for j in jarr:
-      transforms.append(Transform.from_json(j))
+       transforms.append(Transform.from_json(jarr))
     return transforms
 
   @accepts(Vector)
