@@ -186,6 +186,11 @@ This is the full list of Agents and NPC namings avalaible in Inno Simulator for 
     - Porsche935
     - TruckIveco
     - Bus
+    - Ambulance
+    - Mercedes-Van
+    - TruckPeterbilt
+    - Gazelle
+    - DodgeChargerPolice
 
    Pedestrians:
     - PramWoman
