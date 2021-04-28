@@ -16,6 +16,8 @@ class ObstacleType(Enum):
   CAR = 0
   BLOCK = 1
   CONE = 2
+  SANDPILE = 3
+  SNOWPILE = 4
 
 class ObstacleState:
   def __init__(self, transform = None):
@@ -154,6 +156,9 @@ class Simulator:
   def get_agents(self):
     return list(self.agents.values())
 
+  def get_agents_remote(self):
+    agents = self.remote.command("simulator/agent_remote/get")
+    return [Transform.from_json(agent) for agent in agents]
 
   @accepts(ObstacleType, ObstacleState)
   def static_obstacle(self, obst_type, state = None):
