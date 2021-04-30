@@ -158,7 +158,8 @@ class Simulator:
 
   def get_agents_remote(self):
     agents = self.remote.command("simulator/agent_remote/get")
-    return [Transform.from_json(agent) for agent in agents]
+    # self.agents = agents
+    return [Transform.from_json(agent) for agent in agents], agents
 
   @accepts(ObstacleType, ObstacleState)
   def static_obstacle(self, obst_type, state = None):
