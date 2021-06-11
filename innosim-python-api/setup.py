@@ -9,7 +9,7 @@ setup(
     python_requires=">=3.5.0",
     url="https://github.com/inno-robolab/InnoSimulator",
     packages=["innosim"],
-    install_requires=["websockets==7.0"],
+    install_requires=["websockets==9.1"],
     license="Other",
     classifiers=[
         "License :: Other/Proprietary License",
